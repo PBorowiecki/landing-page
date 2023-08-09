@@ -4,3 +4,33 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* section1*/
+
+.section1 {
+  /* background-color: #1f2937; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.container {
+  display: flex;
+}
