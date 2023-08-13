@@ -6,7 +6,7 @@
 }
 
 .wrapper {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
 }
@@ -121,4 +121,32 @@ a {
   height: 150px;
   border: 3px solid #3882f6;
   border-radius: 15px;
+}
+
+/* section3 */
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote p:nth-child(1) {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote p:nth-child(2) {
+  color: #1f2937;
+  font-size: 16px;
+  font-weight: 800;
+  align-self: flex-end;
 }
