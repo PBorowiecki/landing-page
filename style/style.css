@@ -69,6 +69,7 @@ a {
   display: flex;
   gap: 24px;
   width: 60%;
+  max-height: 250px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3em;
@@ -93,7 +94,17 @@ a {
   flex: 1;
   background-color: #ddd;
   width: 100%;
+  /* max-height: auto; */
+  /* border: 5px solid orange; */
+  /* overflow: hidden; */
 }
+
+/* .image img {
+  max-width: 35vw;
+  max-height: auto;
+  object-position: center;
+  aspect-ratio: 3/2;
+} */
 
 /* section2*/
 
