@@ -185,3 +185,14 @@ a {
 .btn2 {
   border: 2px solid white;
 }
+
+/* footer */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 2em 0;
+}
