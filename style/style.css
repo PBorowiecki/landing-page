@@ -150,3 +150,38 @@ a {
   font-weight: 800;
   align-self: flex-end;
 }
+
+/* section4 */
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.text-call p:nth-child(1) {
+  font-size: 22px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.text-call p:nth-child(2) {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: lighter;
+}
+
+.btn2 {
+  border: 2px solid white;
+}
